@@ -1,13 +1,88 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.nav {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  background-color: #f55a5a;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  justify-content: center;
+  color: white;
+}
+.card-list{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  overflow: scroll;
+  max-height:350px;
+  gap:30px;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  margin:10px;
+}
+.card img {
+  flex-grow: 0;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding:10px;
+}
+.loc{
+  display: flex;
+  font-weight: 400;
+  letter-spacing: 0.17em;
+  margin: 0;
+}
+.loc a{
+  margin-left: 10px;
+  color: #918E9B;
+  font-size: 10.24px;
+  line-height: 20px;
+  text-decoration: underline;
+}
+.info h2{
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  margin-top: 0px;
+  margin-left: 5px;
+  margin-bottom: 0px;
+}
+.date{
+  font-weight: bold;
+  font-size: 10.24px;
+  line-height: 12px;
+  margin-top: 20px;
+  margin-bottom:0;
+}
+.para{
+  font-size: 10.24px;
+  line-height: 150%;
+  text-align: left;
+}
+.about{
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+.about img{
+  max-width: 500px;
+}
+.about h1{
+  text-align: left;
 }
